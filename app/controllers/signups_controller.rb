@@ -14,5 +14,4 @@ class SignupsController < ApplicationController
     def signup_params
         params.permit(:time, :camper_id, :activity_id)
     end
-
 end
